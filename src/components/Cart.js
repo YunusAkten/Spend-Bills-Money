@@ -8,7 +8,7 @@ function Cart() {
       return total + product.product.productPrice * product.count;
     }, 0);
   return (
-    <div className="container w-50   border border-black">
+    <div className="container w-50 bg-white  my-3  border border-black">
       <h1 className="">Your Receipt</h1>
       <div className="row  justify-content-center">
         {cart &&
